@@ -1,10 +1,22 @@
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+h3 {
+    font-family: 'Prompt', sans-serif;
+}
+
 body{
-    background-color: #57C5B6;
+    /* background-color: #57C5B6; */
+    background-color: #BFC3BA;
 }
 
 #title{
     font-size: 50px;
-    font-family: 'FreeMono, monospace';
     height: 10vh;
     max-height: 50px;
     margin-bottom: auto;
@@ -15,7 +27,7 @@ body{
 .main{
     display: grid;
     grid-template-rows: 90vh;
-    grid-template-columns: 30% auto;
+    grid-template-columns: auto auto;
     /* background-color: green; */
     
 }
@@ -25,7 +37,9 @@ body{
     grid-column: 1;
     /* background-color: red; */
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 50% auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .profile{
@@ -36,11 +50,17 @@ body{
 }
 
 .about{
+    padding: 10px 50px 10px 50px;
+    width: fit-content;
     grid-row: 2;
     text-align: center;
-    color: #002B5B;
+    color: #2F2235;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* background-color: purple; */
+    background-color: #A9ACA9;
+    margin: 5px auto auto auto;
+    border-style: dashed;
+    border-color: #2F2235;
+    border-radius: 40px;
 }
 
 .content{
@@ -54,24 +74,27 @@ body{
     width: auto;
     max-height: 90%;
     max-width: 90%;
-    border: dashed;
-    border-radius: 50px;
-    border-color: #002B5B;
+    border: solid;
+    border-radius: 40px;
+    border-color: black;
+    background-color: #002B5B;
 }
 
 .social-icons{
-    height: 15%;
+    /* height: 15%; */
+    height: 40px;
 }
 
 .card{
-    background-color: #159895;
+    /* background-color: #159895; */
+    background-color: #A9ACA9;
     width: 65%;
     padding: 10px;
     border-radius: 40px;
     margin: 50px auto 10px auto;
     text-align: center;
     border-style: dashed;
-    border-color: #002B5B;
+    border-color: #2F2235;
 }
 
 #chipkit-img{
@@ -96,4 +119,13 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.left-align-p{
+    text-align: left;
+    line-height: 1.5;
 }
