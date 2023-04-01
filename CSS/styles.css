@@ -99,6 +99,18 @@ body{
     margin-bottom: 5px;
 }
 
+.snake-img{
+    width: 50%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
 .link-icons{
     height: 25px;
 }
@@ -118,4 +130,8 @@ body{
 .left-align-p{
     text-align: left;
     line-height: 1.5;
+}
+
+.link{
+    color: black;
 }
